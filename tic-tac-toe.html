@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+<body>
+    <div class="container">
+        <button class="css-cell js-cell square-top-left"></button>
+        <button class="css-cell js-cell square-top"></button>
+        <button class="css-cell js-cell square-top-right"></button>
+        <button class="css-cell js-cell square-left"></button>
+        <button class="css-cell js-cell square"></button>
+        <button class="css-cell js-cell square-right"></button>
+        <button class="css-cell js-cell square-bottom-left"></button>
+        <button class="css-cell js-cell square-bottom"></button>
+        <button class="css-cell js-cell square-bottom-right"></button>
+    </div>
+    <div class="container-score">
+        <p class="title-score">PLAYER 1 (X)</p>
+        <p class="title-score">TIES</p>
+        <p class="title-score">PLAYER 2 (O)</p>
+        <p class="player-1-score">0</p>
+        <p class="ties">0</p>
+        <p class="player-2-score">0</p>
+    </div>
+
+    <audio class="sound-effect">
+        <source src="win-sound.wav" type="audio/wav">
+      </audio>
+
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>
