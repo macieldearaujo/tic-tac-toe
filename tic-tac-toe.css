@@ -15,23 +15,19 @@
 
 body {
     background-color: var(--background);
-    padding: 20px;
+    padding: 10px;
 }
 
 .container, .container-score {
     margin: 0 auto;
     min-width: 270px;
-    max-width: 450px;
+    max-width: 700px;
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .container {
     margin-top: 2vh;
-    min-height: 300px;
-    max-height: 450px;
-    grid-gap: 0px;
     display: grid;
-    grid-template-rows: 33.33% 33.33% 33.33%;
 }
 
 .container-score {
