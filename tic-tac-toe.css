@@ -17,9 +17,10 @@ body {
     margin: 0 auto;
     margin-top: 100px;
     grid-gap: 0px;
-    width: 462px;
+    min-width: 300px;
+    max-width: 450px;
     display: grid;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: 33% 33% 33%;
     margin-bottom: 30px;
 }
 
