@@ -40,13 +40,12 @@ body {
 }
 
 .css-cell {
-    border: none;
+    line-height: 24vh;
     height: 24vh;
     background-color: transparent;
     font-family: 'Comfortaa', sans-serif;
     color: white;
     font-size: calc(5vw + 5vh);
-    line-height: 153px;
     text-align: center;
     cursor: pointer;
 }
