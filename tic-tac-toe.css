@@ -15,25 +15,28 @@
 
 body {
     background-color: var(--background);
-    padding: 10px;
+    padding: 20px;
 }
 
 .container, .container-score {
     margin: 0 auto;
-    min-width: 290px;
+    min-width: 270px;
     max-width: 450px;
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 2vh;
+    min-height: 300px;
+    max-height: 450px;
     grid-gap: 0px;
     display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%;
 }
 
 .container-score {
     display: grid;
-    margin-top: 50px;
+    margin-top: 10vh;
     margin-bottom: 0;
     text-align: center;
     color: white;
@@ -42,7 +45,7 @@ body {
 
 .css-cell {
     border: none;
-    height: 150px;
+    height: 24vh;
     background-color: transparent;
     font-family: 'Comfortaa', sans-serif;
     color: white;
@@ -85,6 +88,6 @@ body {
 .ties,
 .player-2-score {
     font-size: 40px;
-    margin: auto;
+    margin: 0 auto;
     color: var(--score);
 }
